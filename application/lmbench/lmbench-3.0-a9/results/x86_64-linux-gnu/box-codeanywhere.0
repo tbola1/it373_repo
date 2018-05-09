@@ -1,0 +1,101 @@
+[lmbench3.0 results for Linux box-codeanywhere 2.6.32-042stab112.15 #1 SMP Tue Oct 20 17:22:56 MSK 2015 x86_64 x86_64 x86_64 GNU/Linux]
+[LMBENCH_VER: 3.0-a9]
+[BENCHMARK_HARDWARE: YES]
+[BENCHMARK_OS: NO]
+[ALL: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m 128m]
+[DISKS: ]
+[DISK_DESC: ]
+[ENOUGH: 1000000]
+[FAST: ]
+[FASTMEM: NO]
+[FILE: /var/tmp/XXX]
+[FSDIR: /var/tmp]
+[HALF: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m]
+[INFO: INFO.box-codeanywhere]
+[LINE_SIZE: 128]
+[LOOP_O: 0.00000651]
+[MB: 179]
+[MHZ: 2106 MHz, 0.4748 nanosec clock]
+[MOTHERBOARD: ]
+[NETWORKS: ]
+[PROCESSORS: 8]
+[REMOTE: ]
+[SLOWFS: NO]
+[OS: x86_64-linux-gnu]
+[SYNC_MAX: 1]
+[LMBENCH_SCHED: DEFAULT]
+[TIMING_O: 0]
+[LMBENCH VERSION: 3.0-a9]
+[USER: cabox]
+[HOSTNAME: box-codeanywhere]
+[NODENAME: box-codeanywhere]
+[SYSNAME: Linux]
+[PROCESSOR: x86_64]
+[MACHINE: x86_64]
+[RELEASE: 2.6.32-042stab112.15]
+[VERSION: #1 SMP Tue Oct 20 17:22:56 MSK 2015]
+[Tue May 8 23:26:46 EDT 2018]
+[ 23:26:46 up 2:00, 1 user, load average: 0.41, 0.39, 0.22]
+[net: Kernel Interface table]
+[net: Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg]
+[net: lo        65536 0         0      0      0 0             0      0      0      0 LRU]
+[if: lo        Link encap:Local Loopback  ]
+[if: inet addr:127.0.0.1  Mask:255.0.0.0]
+[if: UP LOOPBACK RUNNING  MTU:65536  Metric:1]
+[if: RX packets:0 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:0 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:0 ]
+[if: RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)]
+[if: ]
+[net: venet0     1500 0    108906      0      0 0         39822      0      0      0 BOPRU]
+[if: venet0    Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  ]
+[if: inet addr:127.0.0.2  P-t-P:127.0.0.2  Bcast:0.0.0.0  Mask:255.255.255.255]
+[if: UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1]
+[if: RX packets:108907 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:39822 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:0 ]
+[if: RX bytes:133595941 (133.5 MB)  TX bytes:3362936 (3.3 MB)]
+[if: ]
+[net: venet0:0   1500 0       - no statistics available -                        BOPRU]
+[if: venet0:0  Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  ]
+[if: inet addr:172.41.134.183  P-t-P:172.41.134.183  Bcast:172.41.134.183  Mask:255.255.255.255]
+[if: UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1]
+[if: ]
+[mount: /vz/private/1647119 on / type simfs (rw,relatime)]
+[mount: proc on /proc type proc (rw,relatime)]
+[mount: sysfs on /sys type sysfs (rw,relatime)]
+[mount: none on /dev type devtmpfs (rw,nosuid,noexec,relatime,mode=755)]
+[mount: none on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)]
+[mount: none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,nosuid,nodev,noexec,relatime)]
+[mount: none on /sys/fs/cgroup type tmpfs (rw,relatime,size=4k,mode=755)]
+[mount: none on /run type tmpfs (rw,nosuid,noexec,relatime,size=26216k,mode=755)]
+[mount: none on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)]
+[mount: none on /run/shm type tmpfs (rw,relatime)]
+[mount: none on /run/user type tmpfs (rw,nosuid,nodev,noexec,relatime,size=102400k,mode=755)]
+integer bit: 0.49 nanoseconds
+integer add: 0.25 nanoseconds
+integer mul: 1.47 nanoseconds
+integer div: 11.20 nanoseconds
+integer mod: 11.98 nanoseconds
+int64 bit: 0.51 nanoseconds
+uint64 add: 0.25 nanoseconds
+int64 mul: 1.43 nanoseconds
+int64 div: 21.86 nanoseconds
+int64 mod: 21.29 nanoseconds
+float add: 1.47 nanoseconds
+float mul: 2.57 nanoseconds
+float div: 7.14 nanoseconds
+double add: 1.47 nanoseconds
+double mul: 2.53 nanoseconds
+double div: 11.06 nanoseconds
+float bogomflops: 7.08 nanoseconds
+double bogomflops: 10.84 nanoseconds
+integer bit parallelism: 2.75
+integer add parallelism: 2.23
+integer mul parallelism: 3.13
+integer div parallelism: 1.60
+integer mod parallelism: 1.87
+int64 bit parallelism: 2.59
+int64 add parallelism: 2.24
+int64 mul parallelism: 3.18
+int64 div parallelism: 1.65

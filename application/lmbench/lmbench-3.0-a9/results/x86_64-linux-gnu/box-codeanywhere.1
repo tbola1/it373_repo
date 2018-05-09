@@ -1,0 +1,135 @@
+[lmbench3.0 results for Linux box-codeanywhere 2.6.32-042stab112.15 #1 SMP Tue Oct 20 17:22:56 MSK 2015 x86_64 x86_64 x86_64 GNU/Linux]
+[LMBENCH_VER: 3.0-a9]
+[BENCHMARK_HARDWARE: YES]
+[BENCHMARK_OS: YES]
+[ALL: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m 128m]
+[DISKS: ]
+[DISK_DESC: ]
+[ENOUGH: 1000000]
+[FAST: ]
+[FASTMEM: NO]
+[FILE: /var/tmp/XXX]
+[FSDIR: /var/tmp]
+[HALF: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m]
+[INFO: INFO.box-codeanywhere]
+[LINE_SIZE: 128]
+[LOOP_O: 0.00000000]
+[MB: 179]
+[MHZ: 2117 MHz, 0.4724 nanosec clock]
+[MOTHERBOARD: ]
+[NETWORKS: ]
+[PROCESSORS: 8]
+[REMOTE: ]
+[SLOWFS: NO]
+[OS: x86_64-linux-gnu]
+[SYNC_MAX: 1]
+[LMBENCH_SCHED: DEFAULT]
+[TIMING_O: 0]
+[LMBENCH VERSION: 3.0-a9]
+[USER: cabox]
+[HOSTNAME: box-codeanywhere]
+[NODENAME: box-codeanywhere]
+[SYSNAME: Linux]
+[PROCESSOR: x86_64]
+[MACHINE: x86_64]
+[RELEASE: 2.6.32-042stab112.15]
+[VERSION: #1 SMP Tue Oct 20 17:22:56 MSK 2015]
+[Tue May 8 23:36:54 EDT 2018]
+[ 23:36:54 up 2:10, 1 user, load average: 0.78, 0.57, 0.37]
+[net: Kernel Interface table]
+[net: Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg]
+[net: lo        65536 0         0      0      0 0             0      0      0      0 LRU]
+[if: lo        Link encap:Local Loopback  ]
+[if: inet addr:127.0.0.1  Mask:255.0.0.0]
+[if: UP LOOPBACK RUNNING  MTU:65536  Metric:1]
+[if: RX packets:0 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:0 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:0 ]
+[if: RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)]
+[if: ]
+[net: venet0     1500 0    110395      0      0 0         40996      0      0      0 BOPRU]
+[if: venet0    Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  ]
+[if: inet addr:127.0.0.2  P-t-P:127.0.0.2  Bcast:0.0.0.0  Mask:255.255.255.255]
+[if: UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1]
+[if: RX packets:110396 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:40996 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:0 ]
+[if: RX bytes:133698633 (133.6 MB)  TX bytes:3509648 (3.5 MB)]
+[if: ]
+[net: venet0:0   1500 0       - no statistics available -                        BOPRU]
+[if: venet0:0  Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  ]
+[if: inet addr:172.41.134.183  P-t-P:172.41.134.183  Bcast:172.41.134.183  Mask:255.255.255.255]
+[if: UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1]
+[if: ]
+[mount: /vz/private/1647119 on / type simfs (rw,relatime)]
+[mount: proc on /proc type proc (rw,relatime)]
+[mount: sysfs on /sys type sysfs (rw,relatime)]
+[mount: none on /dev type devtmpfs (rw,nosuid,noexec,relatime,mode=755)]
+[mount: none on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)]
+[mount: none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,nosuid,nodev,noexec,relatime)]
+[mount: none on /sys/fs/cgroup type tmpfs (rw,relatime,size=4k,mode=755)]
+[mount: none on /run type tmpfs (rw,nosuid,noexec,relatime,size=26216k,mode=755)]
+[mount: none on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)]
+[mount: none on /run/shm type tmpfs (rw,relatime)]
+[mount: none on /run/user type tmpfs (rw,nosuid,nodev,noexec,relatime,size=102400k,mode=755)]
+Simple syscall: 0.1195 microseconds
+Simple read: 0.2332 microseconds
+Simple write: 0.1730 microseconds
+Simple stat: 1.3933 microseconds
+Simple fstat: 0.2457 microseconds
+Simple open/close: 2.4710 microseconds
+Select on 10 fd's: 0.4701 microseconds
+Select on 100 fd's: 1.6159 microseconds
+Select on 250 fd's: 3.5104 microseconds
+Select on 500 fd's: 6.6492 microseconds
+Select on 10 tcp fd's: 0.5153 microseconds
+Select on 100 tcp fd's: 4.9683 microseconds
+Select on 250 tcp fd's: 11.6545 microseconds
+Select on 500 tcp fd's: 22.3298 microseconds
+Signal handler installation: 0.2334 microseconds
+Signal handler overhead: 1.5774 microseconds
+Protection fault: 0.2523 microseconds
+Pipe latency: 6.8076 microseconds
+AF_UNIX sock stream latency: 10.9238 microseconds
+Process fork+exit: 226.7760 microseconds
+Process fork+execve: 622.7051 microseconds
+Process fork+/bin/sh -c: 1498.3443 microseconds
+integer bit: 0.49 nanoseconds
+integer add: 0.24 nanoseconds
+integer mul: 1.48 nanoseconds
+integer div: 10.94 nanoseconds
+integer mod: 12.09 nanoseconds
+int64 bit: 0.49 nanoseconds
+uint64 add: 0.24 nanoseconds
+int64 mul: 1.48 nanoseconds
+int64 div: 22.38 nanoseconds
+int64 mod: 21.41 nanoseconds
+float add: 1.47 nanoseconds
+float mul: 2.51 nanoseconds
+float div: 7.04 nanoseconds
+double add: 1.45 nanoseconds
+double mul: 2.54 nanoseconds
+double div: 11.15 nanoseconds
+float bogomflops: 7.10 nanoseconds
+double bogomflops: 11.02 nanoseconds
+integer bit parallelism: 2.87
+integer add parallelism: 2.29
+integer mul parallelism: 3.14
+integer div parallelism: 1.64
+integer mod parallelism: 1.81
+int64 bit parallelism: 2.48
+int64 add parallelism: 2.21
+int64 mul parallelism: 3.13
+int64 div parallelism: 1.64
+int64 mod parallelism: 1.50
+float add parallelism: 3.00
+float mul parallelism: 4.89
+float div parallelism: 1.03
+double add parallelism: 3.00
+double mul parallelism: 5.05
+double div parallelism: 1.06
+File /var/tmp/XXX write bandwidth: 186851 KB/sec
+Pagefaults on /var/tmp/XXX: 1.5485 microseconds
+
+"mappings
+0.524288 9.003
